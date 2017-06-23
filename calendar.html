@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/calendar.css" />
+		<link rel="shortcut icon" href="imgs/black_rukh.gif">
+	</head>
+
+	<body>
+
+		<h1>Holiday Calendar</h1>
+		<p>Please pick a date between 9/1/2016 and 8/31/2017.</p>
+
+		<section id="dateinput">
+
+			<form method=get>
+				<input type="date" id="date" max="9/1/16" min="8/31/17">
+			</form>
+
+			<br/>
+	
+			<button onclick="getholiday()">Display Holiday</button>
+		
+		</section>
+
+		<section id="dateoutput"">
+
+			<p id="output"></p>
+		
+		</section>
+
+	<script type="text/javascript" src="js/calendar.js"></script>
+	</body>
+
+</html>
